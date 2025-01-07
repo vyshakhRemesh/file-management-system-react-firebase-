@@ -1,17 +1,16 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { Firestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "file-management-system-13557.firebaseapp.com",
-  projectId: "file-management-system-13557",
-  storageBucket: "file-management-system-13557.firebasestorage.app",
-  messagingSenderId: "1021401648142",
-  appId: "1:1021401648142:web:39a9b5e7ea2d18c5e8805f",
+  authDomain: "file-management-system-1f3a2.firebaseapp.com",
+  projectId: "file-management-system-1f3a2",
+  storageBucket: "file-management-system-1f3a2.firebasestorage.app",
+  messagingSenderId: "488895974050",
+  appId: "1:488895974050:web:10c9c3f7c96928b701a5fb",
 };
 
 // Initialize Firebase
