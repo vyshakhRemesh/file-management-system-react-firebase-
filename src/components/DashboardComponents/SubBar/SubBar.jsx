@@ -20,13 +20,13 @@ const SubBar = () => {
         </li>
         <li className="nav-item mx-2">
           <button className="btn btn-outline-dark">
-            <FontAwesomeIcon icon={faFileCirclePlus} />
+            <FontAwesomeIcon icon={faFileCirclePlus} className="me-2" />
             Create File
           </button>
         </li>
         <li className="nav-item mx-2">
           <button className="btn btn-outline-dark">
-            <FontAwesomeIcon icon={faFolderPlus} />
+            <FontAwesomeIcon icon={faFolderPlus} className="me-2" />
             Create Folder
           </button>
         </li>
