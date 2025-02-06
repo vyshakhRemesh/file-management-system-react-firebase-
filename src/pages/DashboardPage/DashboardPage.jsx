@@ -1,7 +1,16 @@
 import React from "react";
+import Navbar from "../../components/DashboardComponents/Navbar/Navbar";
+import SubBar from "../../components/DashboardComponents/SubBar/SubBar";
+import HomeComponent from "../../components/DashboardComponents/HomeComponent/HomeComponent";
 
 const DashboardPage = () => {
-  return <h1>Welcome to the Dashboard</h1>;
+  return (
+    <>
+      <Navbar />
+      <SubBar />
+      <HomeComponent />
+    </>
+  );
 };
 
 export default DashboardPage;

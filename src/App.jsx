@@ -22,6 +22,8 @@ const App = () => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         // ✅ Store only serializable user data in Redux
+        console.log(`in the useeffect in app.jsx, user email:${user.email}`);
+
         dispatch(
           setUser({
             uid: user.uid,
